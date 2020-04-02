@@ -17,7 +17,7 @@ Celsius to Fahrenheit
   Conversion Table
 
 Celsius	Fahrenheit
-      0		       32
+      0		     32
      10			 50
 
 and so on. 
