@@ -16,8 +16,8 @@ Write a program that displays a temperature conversion table for degrees Celsius
 Celsius to Fahrenheit
   Conversion Table
 
-Celsius	Fahrenheit
-      0		     32
-     10			 50
+Celsius	      Fahrenheit
+      0		        32
+     10			      50
 
 and so on. 
