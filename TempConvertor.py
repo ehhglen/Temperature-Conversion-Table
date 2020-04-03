@@ -1,8 +1,19 @@
 
 # Variables 
 Celsius = 0
-
-
+list_of_celsius = [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+]
 
 # Function to convert Celsius to Fahrenheit
 def convToFahrenheit(Celsius):
@@ -13,10 +24,14 @@ def convToFahrenheit(Celsius):
         listOfFahrenheits.append(fahrenheit)
     return (listOfFahrenheits)
 
+list_of_fahrenheits = convToFahrenheit(Celsius)
 
 print("Celsius to Fahrenheit")
 print("Conversion Table")
-print("-----------------")
+print("-----------------")  
+print("Celsius\t\tFahrenheit")
 
-list_of_fahrenheits = convToFahrenheit(Celsius)
-print(*list_of_fahrenheits, sep = "\n") 
+
+print(*list_of_celsius, sep = "\n")
+print(*list_of_fahrenheits, sep = "\n")
+
